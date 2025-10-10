@@ -8,3 +8,7 @@
 *.png filter=lfs diff=lfs merge=lfs -text
 *.jpg filter=lfs diff=lfs merge=lfs -text
 *.jpeg filter=lfs diff=lfs merge=lfs -text
+# Tell GitHub Linguist to ignore shaders and meta files
+*.shader linguist-detectable=false
+*.mat linguist-detectable=false
+*.meta linguist-detectable=false
