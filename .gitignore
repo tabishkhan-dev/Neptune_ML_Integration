@@ -1,37 +1,73 @@
-# Unity
+# =========================================
+# UNITY + PYTHON PROJECT .gitignore
+# =========================================
+
+# --- Unity Generated Folders ---
 [Ll]ibrary/
 [Tt]emp/
 [Oo]bj/
 [Bb]uild/
 [Bb]uilds/
 [Ll]ogs/
-UserSettings/
-MemoryCaptures/
-Recordings/
-Packages/com.unity.collab-proxy/
+[Uu]ser[Ss]ettings/
+[Mm]emoryCaptures/
 
-# IDE
-.vs/
+# --- Unity Cache and Crash Dumps ---
+sysinfo.txt
+*.stacktrace
+
+# --- Unity Auto-generated meta files (keep tracked, not ignored) ---
+!*.meta
+
+# --- Visual Studio / VSCode ---
 .vscode/
-*.csproj
-*.unityproj
+.idea/
 *.sln
-*.user
+*.csproj
 *.pidb
+*.user
 *.booproj
-*.svd
 
-# OS
+# --- OS Files ---
 .DS_Store
 Thumbs.db
 
-# Python
+# --- Python Cache & Virtual Envs ---
 __pycache__/
-venv/
 *.pyc
+*.pyo
+*.pyd
+*.env
+.venv/
+env/
+venv/
 
-# Media files
+# --- Logs ---
+*.log
+
+# --- Data and Notebooks ---
+*.ipynb_checkpoints/
+*.csv
+*.json
+
+# --- Large Binary Media (handled by Git LFS) ---
+*.fbx
+*.obj
+*.wav
 *.mp4
 *.mov
 *.avi
 *.mkv
+*.png
+*.jpg
+*.jpeg
+
+# --- Local Recordings or Demos ---
+demo.mp4
+*.rec
+*.avi
+
+# --- Temporary Archives ---
+*.zip
+*.rar
+*.7z
