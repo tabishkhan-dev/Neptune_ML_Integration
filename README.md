@@ -43,6 +43,7 @@ FeedbackText (TMP): Displays live prediction and confidence values.
 MLManager: Central GameObject managing communication and updates.
 
 Instructions to Run
+
 1️. Start the Python API
 
 In Command Prompt, navigate to the project folder:
