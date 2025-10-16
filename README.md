@@ -4,9 +4,8 @@ Author: Tabish Khan
 Challenge Completed: Communicate with an External Model (Python API)
 Unity Version: Unity 6.0.0 (6000.0.47f1 LTS)
 Python Version: 3.11 (Flask 3.1.2)
-Duration: ~4 hours
 
-🧠 Overview
+
 
 This project demonstrates a real-time data exchange between Unity and a Python Flask API, simulating how Unity can visualize feedback from a machine-learning model.
 
@@ -18,7 +17,7 @@ Displays the prediction text and confidence percentage,
 
 Smoothly transitions the cube color from red → yellow → green based on confidence.
 
-🧩 Project Architecture
+ Architecture
 Python Backend
 
 Flask REST API (ml_api.py) runs locally on http://127.0.0.1:5000/predict.
@@ -43,8 +42,8 @@ FeedbackText (TMP): Displays live prediction and confidence values.
 
 MLManager: Central GameObject managing communication and updates.
 
-▶️ Instructions to Run
-1️⃣ Start the Python API
+Instructions to Run
+1️. Start the Python API
 
 In Command Prompt, navigate to the project folder:
 
@@ -60,7 +59,7 @@ You should see:
 
 Keep this terminal open.
 
-2️⃣ Run the Unity Project
+2️. Run the Unity Project
 
 Open Neptune_ML_Integration in Unity 6.0.0 LTS.
 
@@ -72,11 +71,11 @@ Cube: FeedbackCube
 
 Feedback Text: TMP Text element
 
-Press Play ▶️
+Press Play️
 
 Observe live predictions and color transitions.
 
-🧾 Notes, Assumptions & Improvements
+Notes, Assumptions & Improvements
 
 The API currently returns random predictions for demonstration.
 
@@ -90,11 +89,6 @@ Integrate an actual ML model for rhythm or pitch feedback.
 
 Add real-time music input or sensor-based features.
 
-Use confidence values for lighting or particle visualizations.
-
-🎬 Short Screen Recording
-
-A short 30–45 second video (demo.mp4) demonstrates:
 
 Live prediction updates,
 
